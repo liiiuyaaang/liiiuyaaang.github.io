@@ -574,8 +574,8 @@ footer.is-mobile {
 }
 #footer {
   padding: 2rem 1rem;
-  color: #fff;
-  text-shadow: 0 0 0.5em #000;
+  color: #2e2e2e;
+  text-shadow: 0 0 0.5em #eee;
   text-align: center;
 }
 #footer a {
