@@ -574,11 +574,11 @@ footer.is-mobile {
 }
 #footer {
   padding: 2rem 1rem;
-  color: #eee;
+  color: #000;
   text-align: center;
 }
 #footer a {
-  color: #eee;
+  color: #000;
   text-decoration: none;
   cursor: pointer;
 }
@@ -614,6 +614,7 @@ footer.is-mobile {
 }
 #site-info {
   padding: 10rem 1rem;
+  color: #2e2e2e;
 }
 #site-title,
 #site-sub-title {
@@ -625,9 +626,13 @@ footer.is-mobile {
 #site-title {
   font-weight: bold;
   font-size: 1.3rem;
+  color: #000;
+  text-shadow: 0 0 0.3em #fff, 0 0 0.3em #fff, 0 0 0.3em #fff;
 }
 #site-sub-title {
   font-size: 0.8rem;
+  color: #000;
+  text-shadow: 0 0 0.3em #fff, 0 0 0.3em #fff, 0 0 0.3em #fff;
 }
 #site-social-icons {
   margin: 0 auto;
@@ -636,7 +641,7 @@ footer.is-mobile {
 }
 #site-social-icons .social-icon {
   margin: 0 0.5rem;
-  color: #eee;
+  color: #2e2e2e;
   text-shadow: 0.1rem 0.1rem 0.2rem rgba(0,0,0,0.15);
   font-size: 1.4rem;
   cursor: pointer;
@@ -661,7 +666,7 @@ footer.is-mobile {
 #page-header .toggle-menu {
   display: none;
   padding-top: 0.5rem;
-  color: #eee;
+  color: #2e2e2e;
   cursor: pointer;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
@@ -670,17 +675,18 @@ footer.is-mobile {
   transition: all 0.2s ease-in-out;
 }
 #page-header .toggle-menu:hover {
-  color: #fff;
+  color: #000;
 }
 #page-header a {
   color: #eee;
   text-decoration: none;
 }
 #page-header a:hover {
-  color: #fff;
+  color: #000;
 }
 #page-header .site-page {
   position: relative;
+  color: #000;
   margin-left: 0.6rem;
   padding-bottom: 0.3rem;
   text-shadow: 0.05rem 0.05rem 0.1rem rgba(0,0,0,0.3);
@@ -746,6 +752,8 @@ footer.is-mobile {
   text-shadow: 0.1rem 0.1rem 0.2rem rgba(0,0,0,0.15);
   font-weight: bold;
   cursor: pointer;
+  color: #000;
+  text-shadow: 0 0 0.3em #fff, 0 0 0.3em #fff, 0 0 0.3em #fff;
 }
 @media screen and (min-width: 768px) {
   #site-title {
